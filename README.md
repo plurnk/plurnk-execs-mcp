@@ -1,3 +1,5 @@
+> **ABSORBED into the plurnk platform monorepo** — code, history, and issues now live in [`plurnk/plurnk-service`](https://github.com/plurnk/plurnk-service) under `plurnk-execs-mcp/`. This repo is an archived snapshot.
+
 # @plurnk/plurnk-execs-mcp
 
 MCP-bridge runtime executor for [plurnk-service](https://github.com/plurnk/plurnk-service)'s `exec` scheme. Each [Model Context Protocol](https://modelcontextprotocol.io/) server you configure becomes its own `EXEC` tag; the server's tools are called from the op body, and the output is contained behind the server's address — READ back slice-wise, never dumped into context.
